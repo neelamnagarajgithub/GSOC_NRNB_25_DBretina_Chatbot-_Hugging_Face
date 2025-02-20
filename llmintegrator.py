@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 graph = Neo4jGraph(
     url="bolt://localhost:7687",
     username="nagaraj",
-    password="linux9977"
+    password="password"
 )
 
 # Import movie data into Neo4j
