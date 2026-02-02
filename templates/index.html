@@ -8,8 +8,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheeet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
     <style>
         
         body {
@@ -65,10 +65,10 @@
                 padding: 15px;
             }
         }
-        button:hover{
-        border: 0.5px solid black;
-    }
-    </style>
+        p{
+          
+        }
+            </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
     <div class="min-h-screen max-w-6xl mx-auto px-4">
@@ -80,13 +80,13 @@
         </header>
 
         <!-- Chat Interface -->
-        <div class="chat-container mb-4" id="chatContainer">
+        <div class=" chat-container mb-4" id="chatContainer">
             <div class="message flex items-start mb-4">
                 <div class="flex-shrink-0 w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-white">
                     <i class="bi bi-robot"></i>
                 </div>
-                <div class="ml-3 bg-gray-100 rounded-lg p-3 max-w-[80%]">
-                    <p>Hello! I'm your Neo4j assistant. How can I help you today?</p>
+                <div class="  ml-3 bg-gray-100 rounded-lg p-3 max-w-[80%]">
+                    <p><b>Hello!</b> I'm your Neo4j assistant. How can I help you today?</p>
                 </div>
             </div>
         </div>
@@ -103,7 +103,7 @@
                     ></textarea>
                 </div>
                 
-                <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors flex items-center" 
+                <button type="submit" class=" btn btn-success px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors flex items-center" 
                >
                     <i class="bi bi-send mr-2"></i>
                     Send
@@ -204,6 +204,8 @@
                 chatContainer.scrollTop = chatContainer.scrollHeight;
             }
         });
+        
     </script>
+    
 </body>
 </html>
