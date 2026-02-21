@@ -64,17 +64,51 @@
                 bottom: 20px;
                 padding: 15px;
             }
+            
         }
+        
+           
+        
+            
+
+
+
+
             </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
-    <div class="min-h-screen max-w-6xl mx-auto px-4">
-        <!-- Header Part of Neo4jChat-->
-        <header class="py-6 flex justify-between items-center">
+    <header class="w-full h-[100px] bg-[#1F2933]" style="
+    position: absolute;
+    top: 0px;
+   
+    ">
+  <div class="h-full w-full px-6 flex items-center justify-between" style="display: flex;
+    align-items: center;
+    justify-content:center;
+    font-size: 30px;
+    ">
+    <h1 class="text-lg font-bold text-white flex items-center" style="
+    font-size: 25px">
+      <span class="bg-black text-white px-2 py-0.5 rounded mr-2 sidebar" style="font-size: 28px;
+      font-weight: 700;">
+        Neo4j
+      </span>
+      Chat
+    </h1>
+  </div>
+</header>
+
+   <!-- <div class="min-h-screen ">
+        Header Part of Neo4jChat
+         
+        <header class="py-6 flex justify-between items-center w-full bg-[#7a2e1c]">
+             
             <h1 class="text-3xl font-bold text-gray-900 flex items-center">
                 <span class="bg-black text-white px-3 py-1 rounded-lg mr-2">Neo4j</span>Chat
             </h1>
-        </header>
+        
+        </header>-->
+       
 
         <!-- Chat Interface -->
         <div class=" chat-container mb-4" id="chatContainer">
@@ -88,14 +122,14 @@
             </div>
         </div>
 
-        <!-- Input Area -->
+        <!-- input area -->
         <div class="chat-box">
             <form id="chatForm" class="flex gap-2">
                 <div class="flex-1 relative">
                     <textarea
                         id="messageInput"
                         class="w-full p-3 pr-10 rounded-lg border border-gray-300 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 resize-none"
-                        placeholder="Type your query here..."
+                        placeholder="Type your question here..."
                         rows="1"
                     ></textarea>
                 </div>
